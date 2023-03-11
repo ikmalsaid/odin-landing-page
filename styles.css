@@ -46,7 +46,7 @@
 
 .hero {
     width: 900px;
-    height: 300px;
+    height: 250px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -92,6 +92,7 @@
     width: 900px;
     height: 300px;
     margin: 50px;
+    margin-bottom: 0px;
 }
 
 .feature-boxes {
@@ -123,4 +124,36 @@ p {
     text-align: center;
     white-space: normal;
     word-break: break-word;
+}
+
+/* quote */
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.quote {
+    width: 900px;
+    height: 225px;
+    margin: 30px;
+}
+
+.quote-text {
+    text-align: justify;
+    font-style: italic;
+    font-weight: bold;
+    font-size: x-large;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 60px;
+}
+
+.quote-person {
+    text-align: right;
+    margin-right: 120px;
+    
 }
