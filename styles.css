@@ -1,0 +1,80 @@
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* top bar items*/
+.top-container {
+    color: #fff;
+    background-color: #1f2937;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.top {
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: large;
+}
+
+.links {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.pricing, .community {
+    margin-left: 20px;
+}
+
+/* hero bar items */
+.hero-container {
+    color: #fff;
+    background-color: #1f2937;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.hero {
+    width: 900px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-header {
+    font-weight: bold;
+    font-size: large;
+    margin-bottom: 20px;
+}
+
+.hero-body {
+    margin-bottom: 40px;
+    margin-right: 100px;
+    text-align: justify;
+}
+
+.hero-button {
+    padding: 20px 20px;
+    color: #fff;
+    background-color: #3882F6;
+    border: none;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.hero-image {
+    border: 2px;
+    border-style: solid;
+    border-color: #fff;
+}
