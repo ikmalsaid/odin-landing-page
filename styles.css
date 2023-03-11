@@ -50,6 +50,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 30px;
 }
 
 .hero-header {
@@ -90,18 +91,20 @@
 .feature {
     width: 900px;
     height: 300px;
+    margin: 50px;
 }
 
 .feature-boxes {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
 }
 
 .feature-title {
     text-align: center;
     font-weight: bold;
     font-size: large;
-    margin: 5% 0;
+    margin-bottom: 30px;
 }
 
 .blue-box {
@@ -109,20 +112,15 @@
     border-style: solid;
     border-color: #3882f6;
     border-radius: 10px;
-    margin-bottom: 10px;
-}
-
-.blue-box-text {
-    text-align: center;
-    display: flex;
-    margin: 0;
+    margin-bottom: 20px;
+    width: 150px;
+    height: 150px;
+    background-color: #e5e7eb
 }
 
 p {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+    width: 150px;
     text-align: center;
+    white-space: normal;
+    word-break: break-word;
 }
